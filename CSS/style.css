@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    /* background-color: burlywood; */
+    /* height: 74px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: bold;
+    margin-top: 25px;
+}
+
+.nav-left {
+    font-size: 36px;
+    display: flex;
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-top: 4px;
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 12px 80px;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.3s ease-in-out;
+    gap: 3px;
+
+
+}
+
+.nav-left ul li:hover {
+
+    font-weight: bold;
+
+
+}
+
+.nav-left ul li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-left ul li a:hover {
+    color: brown;
+    font-weight: bold;
+
+
+
+}
+
+.content {
+    margin-top: 32px;
+    height: 100%;
+    /* background-color: rgb(241 241 241); */
+    display: flex;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url(../img/home.jpg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 20%;
+    border-radius: 12px;
+
+}
+
+.content-left {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-right img {
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 200px;
+
+
+}
+
+.home-articles {
+
+    /* padding-top: 12px; */
+    background-color: rgb(238, 174, 174 ,0.5) ;
+    margin-top: 63px;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 234px;
+    height: 255px;
+    /* background-color: red; */
+    right: 22px;
+    top: 100px;
+    font-size: 15px;
+}
+.year-box div{
+    margin: 12px 0px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+    /* padding: 10px; */
+}
+
+.home-article img {
+    width: 200px;
+    padding: 25px;
+}
+
+.home-article-content {
+    align-self: center;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
